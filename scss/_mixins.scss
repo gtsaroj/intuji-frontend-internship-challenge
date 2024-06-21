@@ -1,0 +1,70 @@
+@mixin flex-center {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin flex-between {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@mixin flex-around {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@mixin flex-start-col {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 0.8rem;
+}
+@mixin flex-center-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+@mixin text-2xl {
+  font-size: 60px;
+}
+
+@mixin text-md {
+  font-size: 15px;
+}
+
+@mixin text-xl {
+  font-size: 22px;
+}
+@mixin text-sm {
+  font-size: 20px;
+}
+@mixin text-v-sm {
+  font-size: 15px;
+}
+@mixin font-bold {
+  font-weight: 800;
+}
+@mixin font-semibold {
+  font-weight: 600;
+}
+
+@mixin rounded {
+  border: 1px solid;
+  border-color: $dark-secondary-border;
+  border-radius: 3px;
+}
+@mixin rounded-xl {
+  border: 1px solid; 
+  border-color: $dark-secondary-border;
+  border-radius: 10px;
+  color: $background-secondary;
+}
